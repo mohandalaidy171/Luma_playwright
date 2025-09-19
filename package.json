@@ -1,9 +1,13 @@
 {
-  "name": "luma_palywright",
+  "name": "luma_playwright",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:login": "playwright test tests/login.spec.ts --headed"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
