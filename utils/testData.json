@@ -1,0 +1,12 @@
+{
+    "url":"https://luma.enablementadobe.com/content/luma/us/en.html",
+
+    "validEmail": "test@test.com",
+
+    "validPassword": "test",
+
+    "invalidEmail":"test@tes.com",
+
+    "invalidPassword": "test"
+    
+  }
